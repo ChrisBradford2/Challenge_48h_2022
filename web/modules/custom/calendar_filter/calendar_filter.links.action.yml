@@ -1,0 +1,5 @@
+calendar_filter.add_form:
+  route_name: entity.calendar_filter.add_form
+  title: 'Add calendar filter'
+  appears_on:
+    - entity.calendar_filter.collection

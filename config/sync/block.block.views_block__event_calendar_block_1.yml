@@ -1,0 +1,29 @@
+uuid: 6277c2b8-029c-47c9-98b8-d11497d08b45
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.event_calendar
+  module:
+    - system
+    - views
+  theme:
+    - breezou
+id: views_block__event_calendar_block_1
+theme: breezou
+region: content_bottom2
+weight: 0
+provider: null
+plugin: 'views_block:event_calendar-block_1'
+settings:
+  id: 'views_block:event_calendar-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

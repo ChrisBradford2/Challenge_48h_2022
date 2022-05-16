@@ -1,0 +1,48 @@
+_core:
+  default_config_hash: 8GyocqC2nyRrMjMdTwkLg8XLON-hZQ68wsuOEjxmCx0
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://drupalville.ddev.site/themes/contrib/breezou/favicon.ico'
+  use_default: true
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: themes/custom/breezou/drupalville-logo.png
+  url: ''
+  use_default: false
+third_party_settings:
+  shortcut:
+    module_link: true
+schemas:
+  bootstrap: 8000
+  breeze: 8000
+table_responsive: '-1'
+breadcrumb_home: 1
+region_wells:
+  header: ''
+  header_right: ''
+  navigation: ''
+  navigation_collapsible: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  content_bottom1: ''
+  content_bottom2: ''
+  content_bottom3: ''
+  footer: ''
+  footer1: ''
+  footer2: ''
+  footer3: ''
+cdn_theme: bootstrap
+cdn_cache_ttl_versions: '604800'
+cdn_cache_ttl_themes: '604800'
+cdn_cache_ttl_assets: '0'
+cdn_cache_ttl_library: '0'
+reset_http_request_cache: ''
+table: ''

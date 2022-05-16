@@ -1,0 +1,29 @@
+uuid: a9132346-bb7b-409d-86e1-068752e79436
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_business_category
+    - node.type.business_directory
+    - taxonomy.vocabulary.business_categories
+id: node.business_directory.field_business_category
+field_name: field_business_category
+entity_type: node
+bundle: business_directory
+label: 'Business Category'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      business_categories: business_categories
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

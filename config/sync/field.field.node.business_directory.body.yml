@@ -1,0 +1,23 @@
+uuid: 6c91a6d0-9b27-4051-a2ab-8504be422f76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.business_directory
+  module:
+    - text
+id: node.business_directory.body
+field_name: body
+entity_type: node
+bundle: business_directory
+label: 'Business Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

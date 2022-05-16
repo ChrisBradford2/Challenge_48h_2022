@@ -1,0 +1,27 @@
+uuid: e249bc07-cd27-4820-87c5-10ef0dec13f6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: 3_culumn_custom_block_media
+label: '3 culumn custom block media'
+code: |-
+  .media-oembled-content {
+    width: 32%;
+    padding: 5px;
+    float: left;
+    
+  }
+media: all
+preprocess: true
+conditions:
+  node_type:
+    id: node_type
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      landing_page: landing_page
+contexts: {  }
+conditions_require_all: true

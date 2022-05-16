@@ -1,0 +1,30 @@
+uuid: 98aa4a17-d868-43fb-be3c-11872a4b8b83
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5d1e1656-d984-4396-b900-f98b4fb0908e'
+  module:
+    - block_content
+    - system
+  theme:
+    - breezou
+id: frontpagebottom3
+theme: breezou
+region: content_bottom3
+weight: 0
+provider: null
+plugin: 'block_content:5d1e1656-d984-4396-b900-f98b4fb0908e'
+settings:
+  id: 'block_content:5d1e1656-d984-4396-b900-f98b4fb0908e'
+  label: 'front page bottom 3'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

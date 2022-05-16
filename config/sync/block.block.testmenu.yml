@@ -1,0 +1,25 @@
+uuid: 45e09832-8e8c-482d-a67f-b05d3a04a684
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.testmenu
+  module:
+    - system
+  theme:
+    - breezou
+id: testmenu
+theme: breezou
+region: footer3
+weight: -11
+provider: null
+plugin: 'system_menu_block:testmenu'
+settings:
+  id: 'system_menu_block:testmenu'
+  label: 'My Cool menu'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,30 @@
+uuid: ec64789c-1bec-45ce-bc1e-357413ddede8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0be6f816-bef9-4f3f-ad49-3d3a043fbac3'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: welcomeblock
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'block_content:0be6f816-bef9-4f3f-ad49-3d3a043fbac3'
+settings:
+  id: 'block_content:0be6f816-bef9-4f3f-ad49-3d3a043fbac3'
+  label: 'Welcome Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /test-landing-page

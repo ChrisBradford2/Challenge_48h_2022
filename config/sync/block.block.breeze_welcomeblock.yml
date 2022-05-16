@@ -1,0 +1,33 @@
+uuid: 77517ccd-f7e7-40fd-aec0-e21431021228
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0be6f816-bef9-4f3f-ad49-3d3a043fbac3'
+  module:
+    - block_content
+    - node
+  theme:
+    - breezou
+id: breeze_welcomeblock
+theme: breezou
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'block_content:0be6f816-bef9-4f3f-ad49-3d3a043fbac3'
+settings:
+  id: 'block_content:0be6f816-bef9-4f3f-ad49-3d3a043fbac3'
+  label: 'Welcome Block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      landing_page: landing_page

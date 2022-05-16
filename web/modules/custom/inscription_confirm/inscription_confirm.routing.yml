@@ -1,0 +1,7 @@
+inscription_confirm.example_confirm:
+  path: '/inscription-confirm/example-confirm'
+  defaults:
+    _title: 'Example confirm'
+    _form: 'Drupal\inscription_confirm\Form\ExampleConfirmForm'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,13 @@
+uuid: b28ce585-9ca8-47f1-bbf1-a954963f4f5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - tinymce
+format: full_html
+editor: tinymce
+settings:
+  tinymce_editor_settings: '{"plugins":"print preview importcss searchreplace autolink autosave save directionality visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount imagetools textpattern noneditable help charmap quickbars emoticons","mobile":{"plugins":"print preview importcss tinydrive searchreplace autolink autosave save directionality visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount textpattern noneditable help charmap quickbars emoticons"},"menubar":"file edit view insert format tools table tc help","toolbar":"undo redo | bold italic underline strikethrough | fontselect fontsizeselect formatselect | alignleft aligncenter alignright alignjustify | outdent indent |  numlist bullist | forecolor backcolor removeformat | pagebreak | charmap emoticons | fullscreen preview save print | image media link anchor codesample | ltr rtl","autosave_ask_before_unload":true,"autosave_interval":"30s","autosave_prefix":"{path}{query}-{id}-","autosave_restore_when_empty":false,"autosave_retention":"2m","importcss_append":true,"image_advtab":true,"image_caption":true,"image_title":true,"automatic_uploads":true,"images_upload_url":"\/tinymce\/upload","quickbars_selection_toolbar":"bold italic | quicklink h2 h3 blockquote quickimage quicktable","noneditable_noneditable_class":"mceNonEditable","toolbar_mode":"sliding","contextmenu":"link image imagetools table","skin":"oxide","content_css":"default"}'
+image_upload: {  }

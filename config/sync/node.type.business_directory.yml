@@ -1,0 +1,17 @@
+uuid: 72b53b9d-9397-42fe-a92b-0cd13b98ebf0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Business Directory'
+type: business_directory
+description: 'A place to highlight all the businesses in Drupalville.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

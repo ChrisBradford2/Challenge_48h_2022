@@ -1,0 +1,4 @@
+_core:
+  default_config_hash: bh6Ysp3XnXRtxv0k-hQr8BVt8BKa9ZQ3Si9jc6T_S24
+tinymce_javascript_path: 'https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js'
+tinymce_self_hosted: false

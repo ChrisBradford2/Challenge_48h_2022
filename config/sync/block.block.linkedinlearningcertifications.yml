@@ -1,0 +1,30 @@
+uuid: 7a287a9d-7fe2-47cc-9b14-37ebffaf29bd
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:downloadable_pdf:9434364a-39bd-4796-9748-3474b173aa4d'
+  module:
+    - block_content
+    - system
+  theme:
+    - breezou
+id: linkedinlearningcertifications
+theme: breezou
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:9434364a-39bd-4796-9748-3474b173aa4d'
+settings:
+  id: 'block_content:9434364a-39bd-4796-9748-3474b173aa4d'
+  label: 'LinkedIn Learning Certifications'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /business-directory/OSTraining

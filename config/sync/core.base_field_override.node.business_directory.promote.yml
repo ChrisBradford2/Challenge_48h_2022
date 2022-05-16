@@ -1,0 +1,22 @@
+uuid: f32e1f4b-8b47-4137-9c7c-c8d33d3d8cc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.business_directory
+id: node.business_directory.promote
+field_name: promote
+entity_type: node
+bundle: business_directory
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

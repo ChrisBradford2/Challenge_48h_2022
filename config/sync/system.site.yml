@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+langcode: en
+uuid: 5c37662c-def6-4699-b7be-cd375bf32094
+name: Drupalville
+mail: contact@convergence-of-paprika.com
+slogan: 'A Great Place To Learn About Drupal'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

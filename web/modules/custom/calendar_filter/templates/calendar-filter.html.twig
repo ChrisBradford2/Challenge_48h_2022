@@ -1,0 +1,21 @@
+{#
+/**
+ * @file
+ * Default theme implementation to present a calendar filter entity.
+ *
+ * This template is used when viewing a registered calendar filter's page,
+ * e.g., /admin/content/calendar-filter)/123. 123 being the calendar filter's ID.
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ *   print a subset such as 'content.title'.
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_calendar_filter()
+ */
+#}
+<article{{ attributes }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</article>

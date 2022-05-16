@@ -1,0 +1,25 @@
+uuid: e46bc544-f88e-4fd1-8746-d966ca97b3fe
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:3_column_media_block:4ee1d0b7-8095-4384-a6a5-e57a44f31392'
+  module:
+    - block_content
+  theme:
+    - breezou
+id: 3columntest
+theme: breezou
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:4ee1d0b7-8095-4384-a6a5-e57a44f31392'
+settings:
+  id: 'block_content:4ee1d0b7-8095-4384-a6a5-e57a44f31392'
+  label: '3 column test'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
