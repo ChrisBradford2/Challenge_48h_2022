@@ -1,22 +1,22 @@
-uuid: 72122305-8ba2-4765-816d-4edd8ba40a5c
+uuid: 3ed318fb-fdc8-4feb-b65d-363b5576b725
 langcode: fr
 status: true
 dependencies:
   theme:
-    - gin
+    - bootstrap
 _core:
-  default_config_hash: Hh01DLj9k7UnNdPpOQXHZHW7GHf2OPNDQyCJF7_R9ac
-id: gin_primary_local_tasks
-theme: gin
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: bootstrap_local_tasks
+theme: bootstrap
 region: header
-weight: 0
+weight: 10
 provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Primary tabs'
+  label: Tabs
   label_display: '0'
   provider: core
   primary: true
-  secondary: false
+  secondary: true
 visibility: {  }

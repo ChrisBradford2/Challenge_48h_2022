@@ -1,0 +1,39 @@
+uuid: a6526de0-e147-4a35-8a88-4e5f0d5cd17d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event.body
+    - field.field.node.event.field_category
+    - field.field.node.event.field_event_date
+    - field.field.node.event.field_location
+    - field.field.node.event.field_media_files
+    - field.field.node.event.field_media_video
+    - field.field.node.event.field_platefrom_type
+    - field.field.node.event.field_price
+    - field.field.node.event.field_tournament
+    - node.type.event
+  module:
+    - user
+id: node.event.teaser
+targetEntityType: node
+bundle: event
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_category: true
+  field_event_date: true
+  field_location: true
+  field_media_files: true
+  field_media_video: true
+  field_platefrom_type: true
+  field_price: true
+  field_tournament: true
+  langcode: true

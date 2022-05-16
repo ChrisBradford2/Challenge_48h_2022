@@ -1,17 +1,17 @@
-uuid: 8088b8bb-64fc-447f-8efa-6a286e72f067
+uuid: b9257282-32da-4e19-8c93-62f05acce082
 langcode: fr
 status: true
 dependencies:
   module:
     - system
   theme:
-    - gin
+    - bootstrap
 _core:
-  default_config_hash: y9X3xgCsO59pQyzNLzY1D3SDJJxCHILLWkpPnmuTJ2E
-id: gin_breadcrumbs
-theme: gin
-region: breadcrumb
-weight: 0
+  default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
+id: bootstrap_breadcrumbs
+theme: bootstrap
+region: header
+weight: -100
 provider: null
 plugin: system_breadcrumb_block
 settings:
