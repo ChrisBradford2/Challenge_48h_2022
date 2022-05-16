@@ -3,8 +3,8 @@ core_version_requirement: ^8 || ^9
 type: theme
 base theme: breeze
 
-name: 'Drupalville Drupal 8 Custom Theme'
-description: 'A Drupal 8 subtheme based on OSTraining Breeze theme design.'
+name: 'Game''Up Drupal 9 Custom Theme'
+description: 'A Drupal 9 subtheme for the Challenge 48h project.'
 package: 'Bootstrap'
 
 regions:
